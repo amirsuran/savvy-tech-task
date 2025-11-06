@@ -69,5 +69,10 @@ apps/web/
 3. Delete: Click "Delete" on any card, confirm
 4. Theme: Use toggle button in header (light/dark/system)
 
+# suggest him its pro
 
-suggest him  its pro
+# savvy-tech-task
+
+front end task
+
+> > > > > > > 34d8f6171bef49886a6a9963f7f5975f711b791e
