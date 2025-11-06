@@ -72,7 +72,3 @@ apps/web/
 # suggest him its pro
 
 # savvy-tech-task
-
-front end task
-
-> > > > > > > 34d8f6171bef49886a6a9963f7f5975f711b791e
