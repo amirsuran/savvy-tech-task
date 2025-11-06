@@ -1,10 +1,14 @@
 import * as React from "react";
 import { Slot } from "@radix-ui/react-slot";
-import { useFormContext, Controller, FormProvider } from "react-hook-form";
+import { useFormContext, Controller, FormProvider, type FieldValues, type UseFormReturn } from "react-hook-form";
 import { cn } from "@/lib/utils";
 
-function Form({ children, ...props }: React.ComponentProps<typeof FormProvider>) {
-  return <FormProvider {...props}>{children}</FormProvider>;
+type FormProps<TFieldValues extends FieldValues> = {
+  children: React.ReactNode;
+} & UseFormReturn<TFieldValues>;
+
+function Form<TFieldValues extends FieldValues>({ children, ...form }: FormProps<TFieldValues>) {
+  return <FormProvider {...form}>{children}</FormProvider>;
 }
 
 const FormField = Controller;

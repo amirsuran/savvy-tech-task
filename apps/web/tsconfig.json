@@ -3,6 +3,9 @@
   "compilerOptions": {
     "baseUrl": ".",
     "paths": {
+      "@/types": [
+        "types/index.ts"
+      ],
       "@/components/*": [
         "components/*"
       ],
