@@ -71,4 +71,4 @@ apps/web/
 
 # suggest him its pro
 
-# savvy-tech-task
+# AMIR SURAN
